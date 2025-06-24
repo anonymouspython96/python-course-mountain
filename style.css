@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+table {
+  width: 100%;
+  margin: 5rem 0;
+}
+caption {
+  padding: 3rem 6rem;
+  text-align: left;
+}
+
+th {
+  padding: 3rem 0;
+  text-align: left;
+}
+td {
+  padding: 1.5rem 0;
+}
