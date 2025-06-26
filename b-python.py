@@ -64,3 +64,39 @@ oggetti_di_casa.insert(2, "sedia")
 
 print(oggetti_di_casa) #entra dopo l'indice 1
 
+# ora userò extend
+
+thislist1_2 = ["apple", "banana", "cherry"]
+tropical1_2 = ["mango", "pineapple", "papaya"]
+
+thislist1_2.extend(tropical1_2)
+
+print(thislist1_2)
+
+#output -> ['apple', 'banana', 'cherry', 'mango', 'pineapple', 'papaya']
+
+#usando extend posso unire una lista con una tupla
+
+listamia = ["ciao"]
+tuplamia = ("ciao")
+listamia.extend(tuplamia)
+print(type(listamia)) # <class 'list'>
+
+thislistthatremove = ["apple", "banana", "cherry"]
+thislistthatremove.remove("banana") # banana verrà eliminato
+print(thislistthatremove)
+
+listadellaspesa=["cibo del gatto", "cacca finta", "farina", "birra"]
+listadellaspesa.pop(1)
+print(listadellaspesa) 
+#If you do not specify the index, the pop() method removes the last item.
+
+#The del keyword also removes the specified index:
+
+del listadellaspesa[0]
+print(listadellaspesa)
+
+#del può eliminare la lista completamente
+#The clear() method empties the list.
+
+#The list still remains, but it has no content.
