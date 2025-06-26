@@ -69,9 +69,43 @@ Terza parola: elefante
 
 '''
 
-dict_lista = []
-parola1_1 = input("Prima parola: ")
-parola2_1 = input("Seconda parola: ")
-parola3_1 = input("Terza parola: ")
-dict_lista= [parola1_1,parola2_1,parola3_1] 
-print(max(dict_lista))
+# dict_lista = []
+# parola1_1 = input("Prima parola: ")
+# parola2_1 = input("Seconda parola: ")
+# parola3_1 = input("Terza parola: ")
+# dict_lista= [parola1_1,parola2_1,parola3_1] 
+# print(max(dict_lista))
+
+'''
+Chiedi tre parole, e stampa la parola con la prima lettera più alta
+la parola con l'ultima lettera più alta 
+inseriamo un controllo, se le due parole coincidono 
+dire che la parola è la stessa.
+'''
+
+parola1_2 = input("Prima parola: ")
+parola2_2 = input("Seconda parola: ")
+parola3_2 = input("Terza parola: ")
+
+ALFABETO = "abcdefghijklmnopqrstuvwxyz"
+
+mio_dictionary = {
+    parola1_2: parola1_2[0],
+    parola2_2: parola2_2[0],
+    parola3_2: parola3_2[0],
+}
+
+mio_dictionary2 = {
+    parola1_2: parola1_2[-1],
+    parola2_2: parola2_2[-1],
+    parola3_2: parola3_2[-1],
+}
+
+max1 = max(mio_dictionary, key=mio_dictionary.get)
+max2 = max(mio_dictionary2, key=mio_dictionary2.get)
+
+# migliorare il controllo errore in python after professional or nel frattempo
+
+if max1 == max2: 
+    print(f"La parola {max1} è sia quella con la prima che con l'ultima lettera più alta.") 
+
