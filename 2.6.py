@@ -15,5 +15,5 @@
     Gli oggetti che sono SIA iterabili che contenitori sono     COLLEZIONI.
 
 '''
-mia_lista = []
-print(mia_lista)
+mia_lista = ["Dario"]
+print(mia_lista[0][0]) #iniziale => D
