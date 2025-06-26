@@ -234,3 +234,16 @@ type
 vars
 zip
 '''
+
+mia_lista_listona = [1,5,6,7,48]
+mio_range = range(4,39)
+mia_tupla = (1,5,3,45,89)
+mio_set = {39,2,98,78}
+print(max(mia_lista_listona), 
+      max(mio_range), 
+      max(mia_tupla), 
+      max(mio_set)
+      )
+
+
+
