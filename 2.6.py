@@ -17,3 +17,42 @@
 '''
 mia_lista = ["Dario"]
 print(mia_lista[0][0]) #iniziale => D
+#statico
+
+def iniziale(nome):
+    print (nome[0][0])
+#dinamico
+
+iniziale("Emilian")
+
+'''
+    Milestone
+    Condizioni -> if -> boom
+    Cicli -> for -> boom
+    Funzioni -> def -> boom
+    Moduli -> ecc
+    Classi -> ecc
+'''
+
+mia_tupla = ("Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato", "Domenica")
+
+print(dir(tuple))
+
+mio_set = set({}) #set elimina duplicati
+mio_set.add(3) #set assieme ad add mette in ordine i dati
+mio_set.add(4)
+mio_set.add(5)
+mio_set.add(1)
+print(mio_set)
+
+
+
+
+
+
+
+
+
+
+
+

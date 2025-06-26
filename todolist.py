@@ -21,3 +21,5 @@ for i, task in enumerate(st.session_state.tasks):
         tasks_to_keep.append(task)
 
 st.session_state.tasks = tasks_to_keep
+
+#per farlo partire python -m streamlit run todolist.py
