@@ -15,4 +15,5 @@
     Gli oggetti che sono SIA iterabili che contenitori sono     COLLEZIONI.
 
 '''
-
+mia_lista = []
+print(mia_lista)
