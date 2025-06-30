@@ -7,3 +7,7 @@ Internet -> Gateway -> Proxy
 Notebook LM -> il ritorno
 
 Stream -> di Google
+
+BIOS -> Basic Input Output System
+
+    INTEL -v da abilitare se la virtual machine non va 
