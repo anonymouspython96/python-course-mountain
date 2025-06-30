@@ -11,3 +11,24 @@ Stream -> di Google
 BIOS -> Basic Input Output System
 
     INTEL -v da abilitare se la virtual machine non va 
+
+https://curi.live/
+
+UNIX da eviscerare!!!!
+
+ipconfig -> la lettera A delle reti
+    STORIA DEL PING => sonar dei sottomarini
+ping + indirizzo IP => bussa alle porte di un dispositivo, se è aperte entra se no viene bloccato il ping
+
+Mac Adress: Indirizzo fisico della scheda di rete
+
+    ipconfig /all -> infos
+
+    IPV4 = mac adress -> il più usato
+
+ifconfig -> ci fa vedere la rete
+    - Nome dell'interfaccia (es. eth0, wlan0, lo)
+    - Indirizzo IP assegnato all'interfaccia
+    - MAC address (indirizzo hardware)
+    - Stato dell'interfaccia (attiva/inattiva, UP/DOWN)
+    - Statistiche sui pacchetti trasmessi/ricevuti, errori, collisioni
