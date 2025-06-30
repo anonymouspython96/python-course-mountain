@@ -32,3 +32,29 @@ ifconfig -> ci fa vedere la rete
     - MAC address (indirizzo hardware)
     - Stato dell'interfaccia (attiva/inattiva, UP/DOWN)
     - Statistiche sui pacchetti trasmessi/ricevuti, errori, collisioni
+
+IDONTCARE ABOUT COOKIES
+
+Comandi: 
+    mkdir
+    ls -al -> (admin, long)
+    cd (change directory)
+    pwd(where I am)
+    rm per file (rimuove)
+    rm -r per directory 1. coincidenza
+    mv (muove e rinomina)
+    mv /nomedellacartella ../Music (nome della cartella in cui la voglio mettere)per esempio 
+    cp -> copia ( -r per directory) 1. coincidenza
+    touch -> crea file
+    VI shortcut editor
+    nano text editor -> si usa facendo nano e nome del file
+    cat -> legge il file
+    find trova una cartella -name
+ 
+
+distrosea.com -> ti fa provare una distro di linux
+leonardo ai per le foto
+aistudio per le mappe concettuali
+
+
+
