@@ -55,6 +55,8 @@ Comandi:
 distrosea.com -> ti fa provare una distro di linux
 leonardo ai per le foto
 aistudio per le mappe concettuali
+lovable.dev
+mcp model context protocol for ai per migliorare l'uso del pc
 
 
 
