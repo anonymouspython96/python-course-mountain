@@ -1,0 +1,11 @@
+Rindondiamo: 
+    ping 
+    ls
+    ls -l
+    ls -a 
+    ls -la
+    cd
+    pwd
+    mkdir
+    mv
+    
