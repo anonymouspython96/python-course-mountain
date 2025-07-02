@@ -12,4 +12,5 @@ Rindondiamo:
     find trova un file o una cartella
     cp
     nano -> editor di test -> take a look VI
-    
+    history -> tutto ciò che abbiamo scritto su prompt dei comandi
+    kill -> chiudere un processo
