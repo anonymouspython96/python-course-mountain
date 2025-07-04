@@ -4,4 +4,24 @@ PID processo figlio
 
 PPID multi processo padre
 
+<!-------------------------------------------------------------------------------
 100 comandi rule => IMPARANDONE 100 si può con la pratica di essi arrivare ad un mastering di quella tecnologia [LINUX] -> per altri fare un riparto
+--------------------------------------------------------------------------------->
+
+Se c'è d all'inizio di ls -l è una 
+    Attività prime
+    1- D Directory
+    2- R Read
+    3- W Write
+    4- X Execute
+        Attività seconde
+        1- R Read
+        2- W Write
+        3- X Execute
+            Attività terze
+            1- R Read
+            2- W Write
+            3- X Execute
+
+    DRWX-RWX-RWX 
+
