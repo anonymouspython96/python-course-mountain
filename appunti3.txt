@@ -25,3 +25,13 @@ Se c'è d all'inizio di ls -l è una
 
     DRWX-RWX-RWX 
 
+chmod -> cambiare le autorizazzione
+
+Il proprietario del file ha il permesso di lettura (4), scrittura (2) ed esecuzione (1)
+    -> ecco perchè 42
+
+leggenda dei permessi:> 4 Read 2 WRITE 1 Execute
+
+sudo -> super user do!
+
+
