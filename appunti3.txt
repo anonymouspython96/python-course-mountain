@@ -1,1 +1,5 @@
 tty = The acronym TTY typically stands for Teletypewriter, or Text Telephone. It refers to a device used by individuals with hearing or speech impairments to communicate over telephone lines by typing messages instead of speaking. 
+
+PID processo figlio
+
+PPID multi processo padre
