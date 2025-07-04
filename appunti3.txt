@@ -3,3 +3,5 @@ tty = The acronym TTY typically stands for Teletypewriter, or Text Telephone. It
 PID processo figlio
 
 PPID multi processo padre
+
+100 comandi rule => IMPARANDONE 100 si può con la pratica di essi arrivare ad un mastering di quella tecnologia [LINUX] -> per altri fare un riparto
