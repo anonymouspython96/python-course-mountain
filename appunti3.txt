@@ -1,0 +1,37 @@
+tty = The acronym TTY typically stands for Teletypewriter, or Text Telephone. It refers to a device used by individuals with hearing or speech impairments to communicate over telephone lines by typing messages instead of speaking. 
+
+PID processo figlio
+
+PPID multi processo padre
+
+<!-------------------------------------------------------------------------------
+100 comandi rule => IMPARANDONE 100 si può con la pratica di essi arrivare ad un mastering di quella tecnologia [LINUX] -> per altri fare un riparto
+--------------------------------------------------------------------------------->
+
+Se c'è d all'inizio di ls -l è una 
+    Attività prime
+    1- D Directory
+    2- R Read
+    3- W Write
+    4- X Execute
+        Attività seconde
+        1- R Read
+        2- W Write
+        3- X Execute
+            Attività terze
+            1- R Read
+            2- W Write
+            3- X Execute
+
+    DRWX-RWX-RWX 
+
+chmod -> cambiare le autorizazzione
+
+Il proprietario del file ha il permesso di lettura (4), scrittura (2) ed esecuzione (1)
+    -> ecco perchè 42
+
+leggenda dei permessi:> 4 Read 2 WRITE 1 Execute
+
+sudo -> super user do!
+
+

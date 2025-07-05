@@ -1,0 +1,16 @@
+Rindondiamo: 
+    ping 
+    ls
+    ls -l
+    ls -a 
+    ls -la
+    cd
+    pwd
+    mkdir
+    mv -> sposta e rinomina
+    man -> fornisce informazioni dettagliate sui comandi disponibili nel sistema operativo. (manual)
+    find trova un file o una cartella
+    cp
+    nano -> editor di test -> take a look VI
+    history -> tutto ciò che abbiamo scritto su prompt dei comandi
+    kill -> chiudere un processo

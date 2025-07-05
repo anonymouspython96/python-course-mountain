@@ -29,7 +29,7 @@ Mac Adress: Indirizzo fisico della scheda di rete
 ifconfig -> ci fa vedere la rete
     - Nome dell'interfaccia (es. eth0, wlan0, lo)
     - Indirizzo IP assegnato all'interfaccia
-    - MAC address (indirizzo hardware)
+    - MAC address (indirizzo hardware) -> Inidrizzo fisico
     - Stato dell'interfaccia (attiva/inattiva, UP/DOWN)
     - Statistiche sui pacchetti trasmessi/ricevuti, errori, collisioni
 
