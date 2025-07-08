@@ -293,14 +293,48 @@ Chi ne coglie l’ordine, non più programma alla cieca, ma diventa come un filo
 
 '''
 
-mia_stringa = "Ciao!"
+# mia_stringa = "Ciao!"
 
-help("Ciao!".format)
-help("".format)
-help(str.format)
-
-# while True:
+# help("Ciao!".format)
+# help("".format)
+# help(str.format)
+# i = 0
+# while i < 5:
+#     print("Ciao")
+#     if (i == 2):
+#         break
+#     i += 1
     
-# while n>3:
-    
+# contatore = 5
 # while contatore == 5:
+#     print("ciao!")
+#     numero = int(input("inserisci un numero a caso: "))
+#     if numero%2 == 0:
+#         contatore = 6
+        
+# m = 0 
+# while m != 7:
+#     print("Salve!")
+#     risposta = input("Voui che il programma vada avanti? (Y/N)")
+#     if risposta == "N":
+#         m = 7
+#         continue
+#     else: 
+#         print("Sono Emim vla vlav vla ora ti racagafdaf la mia cinta")
+        
+# print("Sono uscito")
+# # cosa fa break: esce dal ciclo.
+# # cosa fa continue: interrompe l'iterazione in corso e ricomicia il ciclo.
+
+#Scriviamo un programma che mi stampa tutte le lettere di una parola che inserisco riga per riga.
+
+# parola = input("Inserisci una parola qualsiasi che vuoi scrivere in verticale: ")
+# lungezza_parola = len(parola)
+# contatore = 0
+# while contatore < lungezza_parola:
+#     print(parola[contatore])
+#     contatore += 1
+    
+# import builtins
+
+# print(dir(builtins))
