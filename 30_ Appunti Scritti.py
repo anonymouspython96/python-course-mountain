@@ -298,3 +298,9 @@ mia_stringa = "Ciao!"
 help("Ciao!".format)
 help("".format)
 help(str.format)
+
+# while True:
+    
+# while n>3:
+    
+# while contatore == 5:
