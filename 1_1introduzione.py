@@ -14,7 +14,7 @@ print(quattro % due) # il resto se dispari 0 se pari
 
 nomeMio = "Emilian"
 cognomeMio = "Timofei"
-print("Ciao sono " + nomeMio + " " + cognome)
+print("Ciao sono " + nomeMio + " " + cognomeMio)
 # print statico
 
 # name = input("Insert your name! ")
