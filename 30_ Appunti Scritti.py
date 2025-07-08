@@ -292,3 +292,9 @@ Chi ne coglie l’ordine, non più programma alla cieca, ma diventa come un filo
 
 
 '''
+
+mia_stringa = "Ciao!"
+
+help("Ciao!".format)
+help("".format)
+help(str.format)
