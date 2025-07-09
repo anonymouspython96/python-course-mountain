@@ -25,14 +25,29 @@ def funzioneEsercizio():
         
 
 import math
+import builtins
 
-print(math.factorial(4))
+# print(math.factorial(4))
 
-def fattoriale():
-    n = int(input("Inserisci un numero a cui vuoi fare un fattoriale: "))
-    fattorial = n
-    while n > 1:
-        n -= 1
-        fattorial *= n
-    print("Il fattoriale del numero inserito è: ", fattorial)
+# def fattoriale():
+#     n = int(input("Inserisci un numero a cui vuoi fare un fattoriale: "))
+#     fattorial = n
+#     while n > 1:
+#         n -= 1
+#         fattorial *= n
+#     print("Il fattoriale del numero inserito è: ", fattorial)
     
+# # Trovare il massimo tra un certo numero di valori inseriti.
+# print(dir(builtins))
+# print(dir(math))
+# help(max)
+
+# / vuol dire che tutti gli argomenti che PRECEDONO questo slash sono posizionali, cioè sono 
+#           passati alla funzione per posizione.
+# * vuol dire che tutti gli argomenti che seguono l'asterisco sono passati per nome, cioè vengono identificati
+# con un nome - a un valore. Esempio: sep." ", end-"\n". 
+'''
+    Nel caso caso del max() -> [] vuol dire che gli argomenti racchiusi tra [] sono opzionali. Nel caso del max, almeno l'argomento iniziale deve
+    essere messo. Di opzionale ci sono gli argomenti passati per nome. 
+'''
+print(max([1, 100, 200]))
