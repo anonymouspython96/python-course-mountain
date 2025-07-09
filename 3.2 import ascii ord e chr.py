@@ -50,4 +50,14 @@ import builtins
     Nel caso caso del max() -> [] vuol dire che gli argomenti racchiusi tra [] sono opzionali. Nel caso del max, almeno l'argomento iniziale deve
     essere messo. Di opzionale ci sono gli argomenti passati per nome. 
 '''
-print(max([1, 100, 200]))
+# print(max([1, 100, 200]))
+# print(max([],default="Errore, lista vuota"))
+# print(max(["ciao", "albero", "trotterellando"],key=len,default="Errore, lista vuota"))
+# print("ciao" > "Trotterellando")
+# help(ascii)
+# da numero a carattere -> chr()
+# inverso -> ord()
+# print(ord("c"))
+# # help(len)
+# help(ascii)
+
