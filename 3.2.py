@@ -36,4 +36,3 @@ def fattoriale():
         fattorial *= n
     print("Il fattoriale del numero inserito è: ", fattorial)
     
-    
