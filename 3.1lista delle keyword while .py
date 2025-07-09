@@ -75,17 +75,53 @@ print(keyword.kwlist)
 # I due punti dopo il while ma anche dopo il for, l'if... eccetera indicano da dove partono le istruzioni, 
 # e richiedono 
 
-def break_loops():
+def break_loops(len_loop):
     contatore = 0
-    while contatore < 4:
+    while contatore < len_loop:
         contatore += 1
-        print(f"Siamo all'iterazione nr: {contatore}")
-        risposta = input("Premi \"z\" per uscire ora dal loop.")
-        if risposta == "z":
+        print(f"We are now in the iteration number: {contatore}")
+        risposta = input("Push \"s\" to stop the iteration, other key to continue!")
+        if risposta == "s":
             break
-    else: print("Il ciclo è stato eseguito correttamente") 
+    else: print("The end of the iteration.") 
     # così ho anche un controllo ed un metodo più intuitivo e "supportivo"
     # per programmare
-                                                 
-break_loops()
 
+'''
+    un esercizio classico è la stampa dei primi 10 numeri interi.
+    lo si può fare con while o con for, con il quale faremo poi un confronto.
+'''
+
+# contatore = 0
+# while contatore < 10:
+#     contatore += 1
+#     print(f"Numero: {contatore}")
+# else: print("Il conteggio è finito!")
+
+'''
+fare un esercizio che stampi i primi 10 numeri pari. 
+2 modi diversi
+'''
+
+# cont = 0 # contatore numeri dispari
+# while cont < 30:
+#     cont += 1
+#     if cont % 2 == 0:
+#         continue
+#     else:
+#         print(f"Numero: {cont}")
+        
+# print("\n")
+     
+co = 0
+while co < 30:
+    co += 1
+    iseven = co % 2 == 0
+    if iseven:
+        continue
+    print(f"Numero: {co}")
+        
+# c = 2
+# while c < 21:
+#     print(c)
+#     c += 2
