@@ -71,33 +71,21 @@ print(keyword.kwlist)
     'yield']
 '''
 
-help("while")
+# help("while")
 # I due punti dopo il while ma anche dopo il for, l'if... eccetera indicano da dove partono le istruzioni, 
 # e richiedono 
 
-contatore = 0
-while contatore < 4:
-    contatore += 1
-    print(f"Siamo all'iterazione nr: {contatore}")
-else: print("Il ciclo è stato eseguito correttamente")
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+def break_loops():
+    contatore = 0
+    while contatore < 4:
+        contatore += 1
+        print(f"Siamo all'iterazione nr: {contatore}")
+        risposta = input("Premi \"z\" per uscire ora dal loop.")
+        if risposta == "z":
+            break
+    else: print("Il ciclo è stato eseguito correttamente") 
+    # così ho anche un controllo ed un metodo più intuitivo e "supportivo"
+    # per programmare
+                                                 
+break_loops()
 
