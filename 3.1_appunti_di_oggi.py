@@ -1,6 +1,3 @@
-harware
-
-
 '''
     Andimao avanti con il ciclo while.
     while è una keyword. Le keyword sono parole riservate, cioè il cui utilizzo è proibito all'utente.
@@ -33,4 +30,4 @@ for item in software:
 for num in range(10):
     print(num)
 
-# 
+#prova
