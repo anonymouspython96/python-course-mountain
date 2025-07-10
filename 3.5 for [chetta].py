@@ -79,3 +79,16 @@ for i in range(righe):
     print(riga)
     
 print("__________________________________________________________________ \n")
+
+# stampare im triangolo di asterischi, oreferibilmente fon for. 
+#l'unico input sarà il num di righe
+
+righe_triangolo_equilatero = int(input("Inserisci la lunghezza della riga: "))
+
+# for i in range(righe_triangolo_equilatero):
+#     print("*"*i**2) #strano
+    
+for i in range(righe_triangolo_equilatero):
+    print("*"*i) #strano
+    
+    
