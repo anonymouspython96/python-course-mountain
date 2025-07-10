@@ -284,4 +284,3 @@ def famiglia_backend():
     finally:
         print("Fine del programma.")
         
-
