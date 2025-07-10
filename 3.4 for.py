@@ -243,5 +243,4 @@ def massimo():
         if lista_numeri[n] > Max:
             Max = lista_numeri[n]
     print(Max)
-    
 massimo()
