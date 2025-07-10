@@ -243,4 +243,19 @@ def massimo():
         if lista_numeri[n] > Max:
             Max = lista_numeri[n]
     print(Max)
-massimo()
+    
+def massimo_diverso():
+    Max = 0
+    lista_numeri = []
+    while True:
+        numbers = int(input("Inserisci i numeri interi e premi invio ogni volta: "))
+        if numbers == 0: break
+        lista_numeri.append(numbers)
+    Max = lista_numeri[0]
+    for n in lista_numeri:
+        if n > Max: 
+            Max = n
+    print(Max)
+            
+massimo_diverso()
+    
