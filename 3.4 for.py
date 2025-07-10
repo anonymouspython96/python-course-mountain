@@ -116,3 +116,17 @@ for lettera in "Abracadabra":
     lettera = "c"
         i valori invece stanno a DESTRA
     '''
+    
+for valore in ["a", 33, "Ciao", True, None, complex(3,2), False, 3.6]:
+    if valore == bool(valore):
+        print("Salve!")
+        
+'''
+per qualche motivo ho bisogno che mi scriva Salve solo quando, scorrendo la mia iterabile, trova un valore intero.
+'''
+
+for valore in ["a", 33, "Ciao", True, None, complex(3,2), False, 3.6]:
+    if type(valore) == type(bool):
+        print("Salvino!")
+        
+print(type(int))
