@@ -130,3 +130,40 @@ for valore in ["a", 33, "Ciao", True, None, complex(3,2), False, 3.6]:
         print("Salvino!")
         
 print(type(int))
+
+'''
+    Storicamente il ciclo for è stato inventato per ripetere istruzioni sempre uguali
+    senza sforzo, quindi come il while, ma con la possibilità di avere un indice.
+    
+    Per esempio: facciamo 2 esercizi: stampare 10 volte "1", oppure stampare i numeri da 1 a 10, col while e col for. Il for si intende questa volta utilizzato nella maniera pià elementare.
+'''
+
+# help(range)
+
+for n in range(38, 42, 2): 
+    ''' 
+    
+ |  start 38
+ |
+ |  step 2
+ |
+ |  stop 42
+ 
+    '''
+    print("1")
+    
+for n in range(10):
+    print(2)
+    
+contatore = 0
+while contatore < 10:
+    print(3)
+    contatore += 1 
+    
+for n in range(10):
+    print(n+1) #da uno a 10
+    
+contatore = 0
+while contatore < 10:
+    contatore += 1
+    print(contatore) #da uno a 10
