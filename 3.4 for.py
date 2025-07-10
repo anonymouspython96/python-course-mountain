@@ -256,6 +256,4 @@ def massimo_diverso():
         if n > Max: 
             Max = n
     print(Max)
-            
-massimo_diverso()
     
