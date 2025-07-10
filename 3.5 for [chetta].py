@@ -1,28 +1,28 @@
-# Richiede all'utente di inserire una sequenza di caratteri
-lista_numeri = input("Lista: ")  
+# # Richiede all'utente di inserire una sequenza di caratteri
+# lista_numeri = input("Lista: ")  
 
-# Inizializza una nuova lista vuota
-nuova_lista = []
+# # Inizializza una nuova lista vuota
+# nuova_lista = []
 
-# Cicla attraverso la stringa, fermandosi al penultimo carattere
-for i in range(len(lista_numeri) - 1):
-    # Controlla se il carattere corrente è una cifra
-    if lista_numeri[i].isdigit():
-        # Controlla se il carattere successivo è anch'esso una cifra
-        if lista_numeri[i + 1].isdigit():
-            # Se sì, aggiunge la concatenazione delle due cifre alla nuova lista
-            nuova_lista.append(lista_numeri[i] + lista_numeri[i + 1])
-        else:
-            # Altrimenti, aggiunge solo la cifra corrente
-            nuova_lista.append(lista_numeri[i])
+# # Cicla attraverso la stringa, fermandosi al penultimo carattere
+# for i in range(len(lista_numeri) - 1):
+#     # Controlla se il carattere corrente è una cifra
+#     if lista_numeri[i].isdigit():
+#         # Controlla se il carattere successivo è anch'esso una cifra
+#         if lista_numeri[i + 1].isdigit():
+#             # Se sì, aggiunge la concatenazione delle due cifre alla nuova lista
+#             nuova_lista.append(lista_numeri[i] + lista_numeri[i + 1])
+#         else:
+#             # Altrimenti, aggiunge solo la cifra corrente
+#             nuova_lista.append(lista_numeri[i])
 
-# Dopo il ciclo, controlla gli ultimi due caratteri per gestire eventuali casi speciali
-if len(lista_numeri) >= 2:
-    if not lista_numeri[-2].isdigit() and lista_numeri[-1].isdigit():
-        nuova_lista.append(lista_numeri[-1])
+# # Dopo il ciclo, controlla gli ultimi due caratteri per gestire eventuali casi speciali
+# if len(lista_numeri) >= 2:
+#     if not lista_numeri[-2].isdigit() and lista_numeri[-1].isdigit():
+#         nuova_lista.append(lista_numeri[-1])
 
-# Mostra il risultato finale
-print("Nuova lista:", nuova_lista)
+# # Mostra il risultato finale
+# print("Nuova lista:", nuova_lista)
 
 '''
 🟢 Semplici
@@ -52,3 +52,23 @@ Qui entrano in gioco algoritmi usati in ambiti avanzati:
 - Distributed algorithms: per gestire risorse e calcoli su sistemi in rete.
 
 ''' #Vira Team theme
+
+# nuovo esercizio = 
+#utilizzando il ciclo for far stampare al programma un rettangolo fatto con gli astrichi la base e l'altezza del rettangolo dovranno essere inserite dall'utente.
+print("Inserisci la misura delle righe e delle colonne del rettangolo...")
+righe = int(input("righe: "))
+colonne = int(input("colonne: "))
+
+for x in range(righe):
+    riga = ""
+    for y in range(colonne):
+        riga += " * "
+    print(riga)
+
+print("__________________________________________________________________ \n")
+
+for x in range(righe):
+    for y in range(colonne):
+        print(" * ",end="")
+    print("")
+    
