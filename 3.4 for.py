@@ -248,7 +248,7 @@ def massimo_diverso():
     Max = 0
     lista_numeri = []
     while True:
-        numbers = int(input("Inserisci i numeri interi e premi invio ogni volta: "))
+        numbers = int(input("Inserisci i/il numeri/o interi/o e premi invio: "))
         if numbers == 0: break
         lista_numeri.append(numbers)
     Max = lista_numeri[0]
