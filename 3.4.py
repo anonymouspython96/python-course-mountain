@@ -73,3 +73,19 @@ for nome in dictio:
     
 # nome da solo nel for ci prende il valore della chiave
 # nome del dizionario con nome tra [] concatenati nel print mi stampano le chiavi
+
+for paperino in ["a", 125, 2.7, True]:
+    #al primo ciclo il valore del primo elemento incotrato dal for, che in questo 
+    #caso è "a", verrà temporaneamente caricato nella variabile paperino, che quindi 
+    # verrà temporaneamente valutata come stringa. 
+    print(paperino) # stamperà il valore che al momento ha la variabile paperino.
+    # fine ciclo. Quindi passa all'elemento verrà caricato temporaneamente 
+    # nella variabile paperino, che quindi questa volta verrà interpretata come intero.
+    # 
+    #se io ho come iteratore una stringa, che è fatta solo di caratteri, o un range, 
+    #che è fatto solo di numeri, allora i valori che assumerà paperino saranno omogenei.
+    #Ma se per esempio il mio iteratore ha elementi di tipo diverso, anche 
+    #paperino assumerà valori non omogenei tra loro.
+    
+if "a" in ["a", 125, 2.7, True]:
+    print("trovato!")
