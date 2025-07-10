@@ -256,4 +256,30 @@ def massimo_diverso():
         if n > Max: 
             Max = n
     print(Max)
-    
+
+def massimo_da_una_stringa():
+    Max = 0
+    print("Inserisci i numeri dei quali vuoi trovare il massimo, tutti in una sola riga separandoli dallo spazio: ")
+    numeri = input()
+    lista_numeri_stringhe = numeri.split()
+    lista_numeri = [int(x) for x in lista_numeri_stringhe]
+    # definire il singolo elemento come numero e ciclare la lista per ottenere in [parentesi quadre i numeri inseriti] 
+    '''
+    se no lo si può fare con append creando una lista vuota
+    '''
+    Max = lista_numeri[0]
+    for n in lista_numeri:
+        if n > Max: 
+            Max = n
+    print(Max)
+
+def famiglia_backend():
+    try:
+        numero = int(input("Inserisci un numero intero: "))
+        print("Hai inserito:", numero)
+    except ValueError:
+        print("Ops! Non hai inserito un numero valido.")
+    else:
+        print("Tutto è andato bene.")
+    finally:
+        print("Fine del programma.")

@@ -10,3 +10,13 @@ def break_loops(len_loop):
     # così ho anche un controllo ed un metodo più intuitivo e "supportivo"
     # per programmare
     
+def famiglia_backend():
+    try:
+        numero = int(input("Inserisci un numero intero: "))
+        print("Hai inserito:", numero)
+    except ValueError:
+        print("Ops! Non hai inserito un numero valido.")
+    else:
+        print("Tutto è andato bene.")
+    finally:
+        print("Fine del programma.")
