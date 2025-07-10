@@ -52,4 +52,3 @@ Qui entrano in gioco algoritmi usati in ambiti avanzati:
 - Distributed algorithms: per gestire risorse e calcoli su sistemi in rete.
 
 ''' #Vira Team theme
-
