@@ -77,7 +77,8 @@ for nome in dictio:
 for paperino in ["a", 125, 2.7, True]:
     #al primo ciclo il valore del primo elemento incotrato dal for, che in questo 
     #caso è "a", verrà temporaneamente caricato nella variabile paperino, che quindi 
-    # verrà temporaneamente valutata come stringa. 
+    # verrà temporaneamente valutata come stringa, senza necessità di essere pre-dichiarata.
+    # Al punto tale che ad ogni icclo potrebbe anche assumere valori con type diverso.
     print(paperino) # stamperà il valore che al momento ha la variabile paperino.
     # fine ciclo. Quindi passa all'elemento verrà caricato temporaneamente 
     # nella variabile paperino, che quindi questa volta verrà interpretata come intero.
@@ -89,3 +90,29 @@ for paperino in ["a", 125, 2.7, True]:
     
 if "a" in ["a", 125, 2.7, True]:
     print("trovato!")
+    
+for pippo in ["a", 125, 2.7]:
+    print("Ciao!")
+    '''
+    primo ciclo: pippo assume il valore "a", e viene eseguita l'istruzione,
+    che in questo caso ultraspecifico non coinvolge pippo.
+    Quindi pippo vale "a", che faccio? Lo uso? No, stampo ciao.
+    Poi pippo vale 125. Che faccio? Ristampo ciao.
+    eccettera.
+    '''
+    
+for pluto in (1,57,0.22): 
+    print("Ciao!")
+    
+for lettera in "Abracadabra":
+    print(lettera)
+    # per 11 volte ha assunto un valore, che in questo caso essendo il mio iterabile 
+    '''
+    una stringa saranno solo caratteri, e poi ha eseguito l'istruzione.
+    lettera in questo caso abbiamo detto che è una variabile. 
+    Le variabili supportano l'assegnazione. Cioè posso stare alla SINISTRA dell'uguale.
+    lettera = "A"
+    lettera = "b"
+    lettera = "c"
+        i valori invece stanno a DESTRA
+    '''
